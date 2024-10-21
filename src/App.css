@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: firebrick;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    border: 2px solid skyblue;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.cityInput{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+
+.search-icon img{
+    width: 40px;
+    height: 40px;
+    padding: 3px 0 0 0 ;
+    cursor: pointer;
+    /* object-fit: contain; */
+}
+
+.imges{
+    text-align: center;
+    height: 170px;
+}
+
+.imges img{
+    width: 150px;
+    margin-top: 1rem;
+}
+
+.temb,.location,.country{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.temb{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+
+.location{
+    color: orangered;
+    font-size: 2.3rem;
+    font-weight: 700;
+
+}
+
+.country{
+    font-size: 1rem;
+}
+
+.cord{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.cord div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cord div span:last-child{
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.element .wind{
+    width: 80px;
+}
+
+.element .humini{
+    width: 50px;
+}
+
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .5rem;
+    position: relative;
+}
+
+.element{
+    text-align: center;
+}
+
+.data,.data2{
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+.element .text{
+    color: grey;
+    margin-top: .3rem;
+}
+
+.data2{
+  position: absolute;
+  padding: 5px 10px 0 0;
+}
+
+.copyRight{
+    margin-top: 1.5rem;
+    text-align: center;
+    color:grey ;
+}
+
+.copyRight span{
+    color: firebrick;
+}
+
+.loading-sms,
+.err-sms,
+.city-not-found{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: grey;
+    font-weight: 700;
+}
